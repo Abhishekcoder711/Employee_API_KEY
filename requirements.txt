@@ -1,0 +1,4 @@
+Flask==2.3.2
+pymongo
+gunicorn # Agar Render par deploy karna hai to yeh zaroori hai
+python-dotenv # (Optional, but recommended for local secrets)

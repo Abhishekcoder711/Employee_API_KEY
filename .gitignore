@@ -1,0 +1,5 @@
+# Ignore the Python virtual environment
+venv/
+
+# Ignore the file containing sensitive credentials
+.env
