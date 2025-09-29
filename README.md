@@ -21,7 +21,7 @@ You can access the live, deployed API here:
 
 
 ⚙️ Local Installation & Setup
-Follow these steps to set up the project locally for development:
+--->> Follow these steps to set up the project locally for development:
 
 1. ## Create and Activate Virtual Environment
 python -m venv venv
