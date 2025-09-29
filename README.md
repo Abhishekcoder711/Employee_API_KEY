@@ -25,9 +25,9 @@ You can access the live, deployed API here:
 
 1. ## Create and Activate Virtual Environment
 python -m venv venv
-Windows
+##Windows
 .\venv\Scripts\activate
-Linux/macOS
+##Linux/macOS
 source venv/bin/activate
 
 
