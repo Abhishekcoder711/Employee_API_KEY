@@ -23,39 +23,37 @@ You can access the live, deployed API here:
 ⚙️ Local Installation & Setup
 --->> Follow these steps to set up the project locally for development:
 
-1. ## Create and Activate Virtual Environment
+1. Create and Activate Virtual Environment
 python -m venv venv
-##Windows
+
 .\venv\Scripts\activate
-##Linux/macOS
-source venv/bin/activate
 
 
-2. ## ⬇️ Install Dependencies
+2. ⬇️ Install Dependencies
 ---->> pip install -r requirements.txt
 
 
-3. ## 🚀 Environment Variables
+3. 🚀 Environment Variables
 Create a file named .env in the root directory and add your MongoDB Atlas connection string. This keeps your credentials secure (since .env is already in .gitignore).
 
 --->> MONGO_URI="YOUR_MONGO_DB_STRING"
 
 
-4. ## 🎊 Run the Application
+4. 🎊 Run the Application
 Start the Flask application using the development server: python app.py
 
 
 🔒 API Authentication (Crucial)
 --->> Before using any employee endpoint, you must first generate an API key.
 
-1. ## Generate API Key (POST /generate_key):-
+1. Generate API Key (POST /generate_key):-
 --URL	https: //employee-api-key.onrender.com/generate_key
 --Method:	POST
 --Body (JSON):	{"name": "Your Name", "days_valid": 30}
 
 ---->>Success	Returns a unique api_key and its expiration date.<<----
 
-2. ## Using the API Key
+2. Using the API Key
 --> Header Key: X-API-KEY
 --> Header Value: {Your Generated Key}
 
