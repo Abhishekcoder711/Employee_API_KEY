@@ -18,10 +18,10 @@ The API is protected using **API Key Authentication** ensuring only authorized u
 
 ---
 
-## ⚙️ Local Installation & Setup
+### ⚙️ Local Installation & Setup
 Follow these steps to run the project locally for development:
 
-### 1️⃣ Create & Activate Virtual Environment  
+1️⃣ Create & Activate Virtual Environment  
 ```bash
 python -m venv venv
 
