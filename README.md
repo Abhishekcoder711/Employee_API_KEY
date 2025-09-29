@@ -11,7 +11,7 @@ A robust and secure RESTful API built with **Flask** and **MongoDB Atlas** for m
 * **Gunicorn:** Deployed with Gunicorn for reliable and scalable production performance.
 
 
-🔗 Live API Endpoint
+## 🔗 Live API Endpoint
 
 You can access the live, deployed API here:
 
@@ -20,13 +20,13 @@ You can access the live, deployed API here:
 ---
 
 
-⚙️ Local Installation & Setup
+## ⚙️ Local Installation & Setup
 --->> Follow these steps to set up the project locally for development:
 
 1. Create and Activate Virtual Environment
-python -m venv venv
+#-->> python -m venv venv
 
-.\venv\Scripts\activate
+#-->> .\venv\Scripts\activate
 
 
 2. ⬇️ Install Dependencies
